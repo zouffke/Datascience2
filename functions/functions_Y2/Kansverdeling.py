@@ -27,3 +27,17 @@ def standard_deviation(value, probability, distribution: str = "default"):
         return math.sqrt(value * probability * (1 - probability))
     else:
         raise Exception("Invalid distribution. Please use 'default' or 'binomial'.")
+
+
+def normaal_verdeling(x, p, μ: float, xlabel: str, ylabel: str, lower: float = None, upper: float = None):
+    plt.plot(x, p)
+    if lower is not None and upper is not None:
+        plt.fill_between(x, p, where=(x >= lower) & (x <= upper), facecolor='red', alpha=.3)
+    else:
+        plt.fill_between(x, p, where=(x <= μ - 0.5), facecolor='red', alpha=.3)
+        plt.fill_between(x, p, where=(x >= μ + 0.5), facecolor='green', alpha=.3)
+    plt.fill_between(x, p, where=(x >= μ - 1) & (x <= μ + 1), facecolor='blue', alpha=.3)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.title("Normaal verdeling")
+    plt.show()
