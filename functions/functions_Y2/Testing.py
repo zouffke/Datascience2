@@ -101,3 +101,18 @@ def z_test(data, μ, σ):
     z = (data.mean() - μ) / σ * math.sqrt(n)
     p = stats.norm.cdf(-abs(z)) * 2
     return p, z
+
+
+def one_sided_a(data, limit, inf: int):
+    if inf not in [1, -1]:
+        raise ValueError("inf must be 1 or -1")
+
+    n = len(data)
+    s = data.std()
+
+    if inf == 1:
+        a = stats.t.cdf((data.mean() - limit) / s * math.sqrt(n), n - 1)
+    else:
+        a = stats.t.cdf((limit - data.mean()) / s * math.sqrt(n), n - 1)
+
+    return a
