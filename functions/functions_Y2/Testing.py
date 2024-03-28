@@ -116,3 +116,13 @@ def one_sided_a(data, limit, inf: int):
         a = stats.t.cdf((limit - data.mean()) / s * math.sqrt(n), n - 1)
 
     return a
+
+
+def chi_squared_test(fo, fe):
+    """
+    :param fo: The observed frequency
+    :param fe: The expected frequency
+    :return: The chi-squared value
+    """
+    x = sum((fo - fe) ** 2 / fe)
+    return x
