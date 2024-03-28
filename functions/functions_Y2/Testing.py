@@ -66,7 +66,7 @@ def p_value_test(data, μ, b: float = 0.95, do_print: bool = False):
     :param b: the confidence level
     :param μ: the hypothesized mean
     :param do_print: print the p-value
-    :return: the p-value
+    :return: the p-value and the t-value
     """
     if not 0 < b <= 1:
         raise ValueError("b must be between 0 and 1")
@@ -88,3 +88,16 @@ def p_value_test(data, μ, b: float = 0.95, do_print: bool = False):
             print("H0 is not rejected")
 
     return p, t
+
+
+def z_test(data, μ, σ):
+    """
+    :param data: The data that is used to calculate the p-value
+    :param μ: The hypothesized mean
+    :param σ: The hypothesized standard deviation
+    :return: the p-value and the z-value
+    """
+    n = len(data)
+    z = (data.mean() - μ) / σ * math.sqrt(n)
+    p = stats.norm.cdf(-abs(z)) * 2
+    return p, z
