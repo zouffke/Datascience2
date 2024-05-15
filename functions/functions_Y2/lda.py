@@ -40,3 +40,27 @@ def vis_da(LD: pd.DataFrame):
         ax.set_ylim((0, 1.5))
         ax.set_xlabel('LD1')
     return fig, ax
+
+
+def pred_da(lda: LinearDiscriminantAnalysis, observation: pd.DataFrame):
+    return lda.predict_proba(observation), lda.predict(observation)
+
+
+def evaluate_da(overview: pd.DataFrame, targetName: str):
+    cm = pd.crosstab(overview.prediction, overview[targetName], margins='all', margins_name='total')
+    classes = cm.index.tolist()
+    acc = pd.DataFrame([(cm[classes[0]][classes[0]] + cm[classes[1]][classes[1]]) / cm[classes[2]][classes[2]]],
+                       index=["Total"], columns=["Accuracy"])
+    prec = pd.DataFrame([cm[classes[0]][classes[0]] / cm[classes[2]][classes[0]],
+                         cm[classes[1]][classes[1]] / cm[classes[2]][classes[1]]],
+                        index=[classes[0], classes[1]],
+                        columns=["Precision"])
+    recall = pd.DataFrame([cm[classes[0]][classes[0]] / cm[classes[0]][classes[2]],
+                           cm[classes[1]][classes[1]] / cm[classes[1]][classes[2]]],
+                          index=[classes[0], classes[1]],
+                          columns=["Recall"])
+    f1 = pd.DataFrame([2 * (prec.iloc[0, 0] * recall.iloc[0, 0]) / (prec.iloc[0, 0] + recall.iloc[0, 0]),
+                       2 * (prec.iloc[1, 0] * recall.iloc[1, 0]) / (prec.iloc[1, 0] + recall.iloc[1, 0])],
+                      index=[classes[0], classes[1]],
+                      columns=["F1"])
+    return cm, acc, prec, recall, f1
