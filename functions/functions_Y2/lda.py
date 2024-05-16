@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
+from functions.functions_Y2.evaluationMetrics import *
 
 
 def lda_info(lda: LinearDiscriminantAnalysis, X):
@@ -49,9 +50,9 @@ def pred_da(lda: LinearDiscriminantAnalysis, observation: pd.DataFrame):
 def evaluate_da(overview: pd.DataFrame, targetName: str):
     cm = pd.crosstab(overview.prediction, overview[targetName], margins='all', margins_name='total')
     classes = cm.index.tolist()
-    acc = pd.DataFrame([(cm[classes[0]][classes[0]] + cm[classes[1]][classes[1]]) / cm[classes[2]][classes[2]]],
+    acc = pd.DataFrame([accuracy(cm)],
                        index=["Total"], columns=["Accuracy"])
-    prec = pd.DataFrame([cm[classes[0]][classes[0]] / cm[classes[2]][classes[0]],
+    pres = pd.DataFrame([cm[classes[0]][classes[0]] / cm[classes[2]][classes[0]],
                          cm[classes[1]][classes[1]] / cm[classes[2]][classes[1]]],
                         index=[classes[0], classes[1]],
                         columns=["Precision"])
@@ -59,8 +60,8 @@ def evaluate_da(overview: pd.DataFrame, targetName: str):
                            cm[classes[1]][classes[1]] / cm[classes[1]][classes[2]]],
                           index=[classes[0], classes[1]],
                           columns=["Recall"])
-    f1 = pd.DataFrame([2 * (prec.iloc[0, 0] * recall.iloc[0, 0]) / (prec.iloc[0, 0] + recall.iloc[0, 0]),
-                       2 * (prec.iloc[1, 0] * recall.iloc[1, 0]) / (prec.iloc[1, 0] + recall.iloc[1, 0])],
+    f1 = pd.DataFrame([2 * (pres.iloc[0, 0] * recall.iloc[0, 0]) / (pres.iloc[0, 0] + recall.iloc[0, 0]),
+                       2 * (pres.iloc[1, 0] * recall.iloc[1, 0]) / (pres.iloc[1, 0] + recall.iloc[1, 0])],
                       index=[classes[0], classes[1]],
                       columns=["F1"])
-    return cm, acc, prec, recall, f1
+    return cm, acc, pres, recall, f1
