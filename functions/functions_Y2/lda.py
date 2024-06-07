@@ -9,7 +9,8 @@ from functions.functions_Y2.evaluationMetrics import *
 def lda_info(lda: LinearDiscriminantAnalysis, X):
     df1 = pd.DataFrame(lda.priors_, index=lda.classes_, columns=['prior probabilities'])
     df2 = pd.DataFrame(lda.means_, index=lda.classes_, columns=X.columns)
-    df3 = pd.DataFrame(lda.scalings_, index=X.columns, columns=['LD1'])
+    df3 = pd.DataFrame(lda.scalings_, index=X.columns,
+                       columns=['LD' + str(i + 1) for i in range(lda.scalings_.shape[1])])
     dfs1 = df1.style.set_caption('Prior probabilities of groups')
     dfs2 = df2.style.set_caption('Group means')
     dfs3 = df3.style.set_caption('Coefficients of linear discriminants')
@@ -18,7 +19,9 @@ def lda_info(lda: LinearDiscriminantAnalysis, X):
 
 def ld1(lda: LinearDiscriminantAnalysis, X, target: pd.DataFrame, index: range):
     LD = lda.transform(X)
-    LD = pd.DataFrame(zip(LD[:, 0], target), columns=['LD1', 'Target'], index=index)
+    arr_t = np.transpose(LD)
+    LD = pd.DataFrame(zip(*arr_t, target), columns=['LD' + str(i + 1) for i in range(LD.shape[1])] + ['Target'],
+                      index=index)
     return LD
 
 
