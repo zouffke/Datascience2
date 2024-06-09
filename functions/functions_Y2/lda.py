@@ -1,3 +1,4 @@
+from IPython.core.display_functions import display
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 import pandas as pd
 import numpy as np
@@ -6,7 +7,7 @@ from scipy.stats import norm
 from functions.functions_Y2.evaluationMetrics import *
 
 
-def lda_info(lda: LinearDiscriminantAnalysis, X):
+def lda_info(lda: LinearDiscriminantAnalysis, X, do_print: bool = False):
     df1 = pd.DataFrame(lda.priors_, index=lda.classes_, columns=['prior probabilities'])
     df2 = pd.DataFrame(lda.means_, index=lda.classes_, columns=X.columns)
     df3 = pd.DataFrame(lda.scalings_, index=X.columns,
@@ -14,7 +15,13 @@ def lda_info(lda: LinearDiscriminantAnalysis, X):
     dfs1 = df1.style.set_caption('Prior probabilities of groups')
     dfs2 = df2.style.set_caption('Group means')
     dfs3 = df3.style.set_caption('Coefficients of linear discriminants')
-    return dfs1, dfs2, dfs3
+    dimensions = min(X.columns.size, lda.classes_.size - 1)
+    if do_print:
+        display(dfs1)
+        display(dfs2)
+        display(dfs3)
+        print(f'The LD has {dimensions} dimension(s)')
+    return dfs1, dfs2, dfs3, dimensions
 
 
 def ld1(lda: LinearDiscriminantAnalysis, X, target: pd.DataFrame, index: range):
