@@ -1,13 +1,21 @@
-from IPython.core.display_functions import display
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 from scipy.stats import norm
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+
 from functions.functions_Y2.evaluationMetrics import *
 
 
 def lda_info(lda: LinearDiscriminantAnalysis, X, do_print: bool = False):
+    """
+    Return or print the info of the given LDA.
+    :param lda: The linear discriminant analysis object.
+    :param X: The list of independent objects of the lda.
+    :param do_print: Print the output of the function instead of returning the output
+
+    :returns dfs1: The prior probabilities of groups.
+    :returns dfs2: The group means
+    :returns dfs3: The coefficients of linear discriminants
+    :returns dimensions: The dimensions of the lda
+    """
     df1 = pd.DataFrame(lda.priors_, index=lda.classes_, columns=['prior probabilities'])
     df2 = pd.DataFrame(lda.means_, index=lda.classes_, columns=X.columns)
     df3 = pd.DataFrame(lda.scalings_, index=X.columns,
