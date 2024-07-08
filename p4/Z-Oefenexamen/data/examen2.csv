@@ -1,0 +1,101 @@
+id;bedrag;provincie;hoeveelheid regen;datum1;aantal;behaaldeGraad;prijs;massa;rugnummer;vermogen;temperatuur (Kelvin);belangrijkheid;temperatuur;datum2;opinie;LDA.prijs;LDA.score
+1586;1505,48;Henegouwen;5,43;01.31.2019;ONBEKEND;grootste onderscheiding;geen;88,1;2;190,021;262,4;belangrijk;heet;31/07/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1587;1564,59;Antwerpen;5,23;10.12.2019;9;voldoening;goud;82,3;5;200,95;339,7;belangrijk;lage temperatuur;ONBEKEND;zeer mee oneens;goud;0,255984578
+1588;1988,8;Limburg;5,21;04.18.2019;10;grootste onderscheiding;goud;98,4;1;184,844;308,9;niet belangrijk;vrieskou;25/02/2019;zeer mee eens;goud;0,06599239
+1589;1405,74;Vlaams-Brabant;5,45;05.08.2019;10;grootste onderscheiding;goud;89,3;6;182,67;223,7;heel belangrijk;aangenaam warm;16/07/2019;mee eens;geen;0,602535952
+1590;1643,02;Vlaams-Brabant;5,64;08.26.2019;9;onderscheiding;geen;88,5;11;229,624;306,8;belangrijk;aangenaam warm;29/07/2019;zeer mee eens;geen;0,364617756
+1591;ONBEKEND;Namen;4,56;11.05.2019;10;voldoening;goud;75,8;5;192,791;286,2;heel belangrijk;warm;9/08/2019;neutraal;ONBEKEND;ONBEKEND
+1592;1506,19;Antwerpen;4,58;01.26.2019;10;grootste onderscheiding;geen;80,6;10;222,275;295,7;beetje belangrijk;warm;4/11/2019;neutraal;zilver;0,278732097
+1593;1806,23;Luxemburg;4,93;04.08.2019;10;onderscheiding;goud;94,2;9;203,635;255,1;beetje belangrijk;aangenaam warm;13/07/2019;zeer mee eens;goud;0,146959039
+1594;1360,9;Henegouwen;5,1;09.17.2019;11;ONBEKEND;goud;88,3;2;210,507;268,1;ONBEKEND;warm;31/03/2019;mee eens;goud;0,146959039
+1595;1611,34;Henegouwen;4,55;01.19.2019;8;gebuisd;goud;83,7;6;180,379;225,9;beetje belangrijk;vrieskou;20/04/2019;ONBEKEND;goud;0,146959039
+1596;1380,26;Vlaams-Brabant;4,84;05.03.2019;12;grootste onderscheiding;brons;76,7;1;199,96;330,6;belangrijk;lage temperatuur;6/11/2019;neutraal;goud;0,216439759
+1597;1313,55;Luxemburg;4,43;11.24.2019;13;voldoening;goud;109,1;11;197,614;ONBEKEND;belangrijk;aangenaam warm;14/06/2019;neutraal;ONBEKEND;ONBEKEND
+1598;1409,37;Henegouwen;4,06;03.25.2019;9;voldoening;geen;100,2;10;171,495;304,8;beetje belangrijk;lage temperatuur;13/09/2019;mee eens;geen;0,349231687
+1599;1380,59;Waals-Brabant;5,41;07.29.2019;9;grootste onderscheiding;geen;82,2;5;190,258;248,8;beetje belangrijk;warm;13/12/2019;zeer mee eens;geen;0,772248164
+1600;1473,96;Oost-Vlaanderen;4,64;03.11.2019;11;grote onderscheiding;geen;84,5;9;194,663;259,6;belangrijk;vrieskou;29/07/2019;ONBEKEND;geen;0,772248164
+1601;1406,51;Waals-Brabant;4,43;01.01.2020;10;onderscheiding;goud;91,9;5;204,664;302,9;belangrijk;ONBEKEND;30/06/2019;neutraal;geen;0,772248164
+1602;1540,1;Henegouwen;5,59;07.03.2019;11;onderscheiding;goud;89,4;4;191,883;249,9;beetje belangrijk;aangenaam warm;1/07/2019;zeer mee oneens;goud;0,310964026
+1603;1647,6;Oost-Vlaanderen;4,35;10.28.2019;10;ONBEKEND;goud;101,1;3;214,122;284,4;niet belangrijk;lage temperatuur;4/02/2019;neutraal;ONBEKEND;ONBEKEND
+1604;1399,65;Oost-Vlaanderen;5,54;ONBEKEND;9;grootste onderscheiding;goud;90,5;4;ONBEKEND;233,5;belangrijk;warm;17/12/2019;mee eens;ONBEKEND;ONBEKEND
+1605;1556,21;West-Vlaaderen;4,45;ONBEKEND;ONBEKEND;grote onderscheiding;goud;90,6;5;159,116;275,6;belangrijk;aangenaam warm;14/03/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1606;1228,19;Waals-Brabant;4,22;09.09.2019;9;gebuisd;geen;63,4;3;176,997;262,1;belangrijk;vrieskou;15/07/2019;neutraal;geen;0,848968517
+1607;1563,85;Antwerpen;3,78;10.12.2019;10;grootste onderscheiding;goud;88,8;11;169,658;ONBEKEND;beetje belangrijk;warm;19/02/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1608;1606,17;Waals-Brabant;ONBEKEND;02.23.2019;10;grootste onderscheiding;ONBEKEND;75,2;4;192,617;330,5;belangrijk;aangenaam warm;30/03/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1609;1377,37;Namen;5,05;04.10.2019;9;grote onderscheiding;geen;85,9;11;236,792;295,4;heel belangrijk;warm;9/03/2019;mee eens;zilver;0,395600629
+1610;1626,1;Vlaams-Brabant;4;04.06.2019;11;grote onderscheiding;zilver;82,8;2;206,661;263,9;belangrijk;warm;ONBEKEND;zeer mee eens;zilver;0,395600629
+1611;1906,13;Namen;5,29;05.11.2019;10;onderscheiding;goud;94,1;9;174,698;270,8;ONBEKEND;warm;7/02/2019;zeer mee eens;zilver;0,395600629
+1612;1561,03;Oost-Vlaanderen;5,44;ONBEKEND;10;gebuisd;brons;87,8;7;208,766;293,3;beetje belangrijk;warm;13/04/2019;mee eens;zilver;0,395600629
+1613;1498,01;Antwerpen;5,08;11.10.2019;12;grote onderscheiding;goud;86,5;5;193,145;334,3;beetje belangrijk;warm;2/01/2019;zeer mee oneens;goud;0,132185237
+1614;1957,22;ONBEKEND;4,57;09.26.2019;10;grote onderscheiding;goud;85,1;5;ONBEKEND;301,6;heel belangrijk;aangenaam warm;24/03/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1615;1660,96;Waals-Brabant;5,49;11.09.2019;10;grote onderscheiding;zilver;89,1;11;202,501;301,7;belangrijk;aangenaam warm;1/10/2019;zeer mee eens;goud;0,284417139
+1616;1608,44;Limburg;4,69;09.26.2019;10;gebuisd;goud;ONBEKEND;6;169,349;251,9;belangrijk;lage temperatuur;11/01/2019;zeer mee oneens;ONBEKEND;ONBEKEND
+1617;1789,94;Antwerpen;4,74;09.21.2019;11;grootste onderscheiding;goud;ONBEKEND;5;225,332;296,1;niet belangrijk;vrieskou;30/09/2019;zeer mee oneens;ONBEKEND;ONBEKEND
+1618;1796,49;Waals-Brabant;4,12;12.26.2019;10;onderscheiding;zilver;89;1;218,687;303,9;beetje belangrijk;heet;16/08/2019;mee eens;goud;0,079206139
+1619;1333,2;Namen;4,75;03.01.2019;10;onderscheiding;zilver;96,8;9;191,497;243,9;belangrijk;aangenaam warm;27/05/2019;mee eens;geen;0,423158509
+1620;1649,49;Oost-Vlaanderen;4,84;10.08.2019;11;grootste onderscheiding;ONBEKEND;109,4;7;170,312;345,3;heel belangrijk;lage temperatuur;6/05/2019;ONBEKEND;ONBEKEND;ONBEKEND
+1621;1463,35;Oost-Vlaanderen;4,16;12.16.2019;9;voldoening;brons;81,8;1;167,981;226,3;belangrijk;warm;27/03/2019;ONBEKEND;geen;0,423158509
+1622;1471,25;Antwerpen;5,67;04.08.2019;10;onderscheiding;geen;100,2;7;218,53;246,4;niet belangrijk;warm;7/10/2019;zeer mee eens;zilver;0,345375942
+1623;1422,28;Vlaams-Brabant;4,52;02.01.2019;8;grote onderscheiding;geen;102,3;8;217,999;285,8;heel belangrijk;vrieskou;18/03/2019;neutraal;zilver;0,314984694
+1624;ONBEKEND;Henegouwen;4,47;03.25.2019;11;gebuisd;goud;97,8;8;186,635;282,6;belangrijk;aangenaam warm;24/03/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1625;1667,11;Henegouwen;5,06;05.02.2019;10;onderscheiding;zilver;94,1;5;209,558;300,9;heel belangrijk;aangenaam warm;28/08/2019;ONBEKEND;zilver;0,314984694
+1626;1408,68;Namen;5,17;12.15.2019;10;onderscheiding;brons;105,5;4;208,951;306,3;beetje belangrijk;warm;1/07/2019;neutraal;zilver;0,210134254
+1627;1742,49;Henegouwen;4,32;12.29.2019;9;onderscheiding;brons;85,9;11;233,478;214,2;belangrijk;lage temperatuur;4/08/2019;zeer mee eens;zilver;0,24205167
+1628;1633,62;Namen;4,8;06.10.2019;10;voldoening;zilver;83,7;3;210,463;318,4;heel belangrijk;ONBEKEND;8/06/2019;zeer mee oneens;zilver;0,24205167
+1629;1234,08;West-Vlaaderen;5,16;09.14.2019;12;grote onderscheiding;geen;92,1;7;238,651;297,9;belangrijk;ONBEKEND;31/08/2019;mee eens;zilver;0,24205167
+1630;1399,4;Limburg;4,58;11.22.2019;11;ONBEKEND;goud;92,5;2;205;261;belangrijk;vrieskou;17/08/2019;zeer mee oneens;zilver;0,24205167
+1631;1752,26;Oost-Vlaanderen;5,5;11.02.2019;11;grootste onderscheiding;geen;100,6;8;214,953;281,9;beetje belangrijk;aangenaam warm;3/07/2019;zeer mee eens;goud;0,092071168
+1632;1461,03;Namen;3,86;09.26.2019;11;onderscheiding;zilver;100;10;220,022;265,2;beetje belangrijk;heet;20/04/2019;zeer mee eens;zilver;0,063180432
+1633;1204,53;Antwerpen;4,59;08.25.2019;ONBEKEND;grote onderscheiding;brons;91,6;7;198,437;314,1;belangrijk;heet;25/09/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1634;2035;Limburg;5,25;11.05.2019;8;voldoening;geen;ONBEKEND;6;242,383;288,3;beetje belangrijk;aangenaam warm;5/11/2019;mee oneens;ONBEKEND;ONBEKEND
+1635;1630,91;Limburg;5,46;02.28.2019;8;onderscheiding;zilver;104,4;3;214,525;240,6;belangrijk;vrieskou;2/09/2019;mee eens;geen;0,458440293
+1636;1499,52;West-Vlaaderen;5,03;05.14.2019;9;gebuisd;zilver;71,9;10;225,116;336,8;belangrijk;aangenaam warm;4/07/2019;neutraal;geen;0,504767366
+1637;1900,3;West-Vlaaderen;4,72;04.11.2019;11;onderscheiding;goud;83,5;4;206,602;337,7;niet belangrijk;warm;18/09/2019;mee eens;goud;0,051503791
+1638;1848,79;Oost-Vlaanderen;5,63;02.15.2019;11;onderscheiding;goud;93,8;2;225,84;306,4;ONBEKEND;vrieskou;24/12/2019;mee eens;goud;0,051503791
+1639;1616,07;Waals-Brabant;4,18;07.27.2019;9;voldoening;zilver;79,2;8;199,947;269,2;belangrijk;vrieskou;10/09/2019;zeer mee eens;geen;0,392530841
+1640;1294,89;Henegouwen;5,26;09.04.2019;10;grootste onderscheiding;zilver;92,9;4;215,509;323,9;beetje belangrijk;vrieskou;ONBEKEND;neutraal;geen;0,392530841
+1641;1481,04;ONBEKEND;4,65;01.01.2019;10;grote onderscheiding;goud;83,5;3;ONBEKEND;266,4;belangrijk;warm;15/12/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1642;1590,23;Waals-Brabant;5,15;10.21.2019;10;onderscheiding;geen;85,5;2;224,691;280,8;belangrijk;ONBEKEND;6/10/2019;zeer mee eens;geen;0,392530841
+1643;1400,76;Vlaams-Brabant;4,13;03.14.2019;11;grote onderscheiding;goud;83,3;11;209,298;326,1;belangrijk;aangenaam warm;23/02/2019;zeer mee eens;zilver;0,161729638
+1644;1394,09;Luxemburg;5,82;09.02.2019;10;grootste onderscheiding;zilver;98,9;2;203,58;320,4;heel belangrijk;aangenaam warm;6/03/2019;zeer mee eens;geen;0,393462192
+1645;1423,41;ONBEKEND;5,23;10.16.2019;10;gebuisd;zilver;89,1;2;189,212;306,1;heel belangrijk;lage temperatuur;8/12/2019;zeer mee eens;geen;0,393462192
+1646;1128,2;Namen;4,16;12.15.2019;11;voldoening;geen;86;5;180,845;291,3;belangrijk;lage temperatuur;25/06/2019;mee eens;geen;0,412003059
+1647;1778,19;Waals-Brabant;4,36;05.21.2019;10;grote onderscheiding;ONBEKEND;ONBEKEND;2;175,958;298,5;belangrijk;aangenaam warm;16/05/2019;neutraal;ONBEKEND;ONBEKEND
+1648;1684,11;Waals-Brabant;5,94;07.12.2019;10;onderscheiding;zilver;112;3;217,225;313,3;belangrijk;vrieskou;30/04/2019;zeer mee eens;zilver;0,128725062
+1649;1358,92;Vlaams-Brabant;5,3;05.23.2019;9;onderscheiding;zilver;90,4;11;173,213;317,1;belangrijk;lage temperatuur;ONBEKEND;ONBEKEND;zilver;0,128725062
+1650;1510,62;Waals-Brabant;4,02;02.18.2019;10;grootste onderscheiding;zilver;91,4;5;212,49;264,4;heel belangrijk;vrieskou;7/12/2019;mee eens;zilver;0,179290816
+1651;1378,68;Oost-Vlaanderen;5,04;ONBEKEND;10;grote onderscheiding;zilver;105,2;10;188,141;255,1;beetje belangrijk;aangenaam warm;14/07/2019;zeer mee eens;zilver;0,179290816
+1652;1643,97;Namen;4,15;09.09.2019;10;grootste onderscheiding;geen;91,7;11;220,475;ONBEKEND;belangrijk;warm;2/12/2019;zeer mee oneens;ONBEKEND;ONBEKEND
+1653;1490,67;Namen;4,08;04.18.2019;9;voldoening;goud;82,1;10;217,211;289,2;belangrijk;warm;30/04/2019;zeer mee eens;zilver;0,336088128
+1654;1736,99;Waals-Brabant;5,03;06.03.2019;11;onderscheiding;geen;88,8;2;186,738;283,3;beetje belangrijk;vrieskou;22/04/2019;zeer mee eens;goud;0,118406301
+1655;1694,71;Oost-Vlaanderen;5,01;09.27.2019;9;gebuisd;brons;93,6;8;191,29;333,1;beetje belangrijk;warm;2/01/2019;neutraal;goud;0,272631678
+1656;1244,68;Oost-Vlaanderen;4,32;11.08.2019;10;onderscheiding;goud;95,5;7;181,307;ONBEKEND;belangrijk;vrieskou;26/06/2019;ONBEKEND;ONBEKEND;ONBEKEND
+1657;1449,74;Oost-Vlaanderen;5,08;01.29.2019;10;onderscheiding;goud;80,4;3;161,714;307,8;belangrijk;warm;19/05/2019;zeer mee eens;geen;0,500682686
+1658;1343,24;Oost-Vlaanderen;5,22;04.14.2019;12;grootste onderscheiding;zilver;105,3;10;219,978;240,6;heel belangrijk;aangenaam warm;20/02/2019;mee eens;zilver;0,112630466
+1659;1525,04;Henegouwen;4,27;02.10.2019;9;onderscheiding;goud;102,7;2;205,898;226,4;niet belangrijk;aangenaam warm;9/07/2019;zeer mee eens;zilver;0,264878137
+1660;1587,47;Oost-Vlaanderen;5,18;03.23.2019;11;grote onderscheiding;zilver;94,7;11;228,842;339,8;belangrijk;lage temperatuur;22/10/2019;ONBEKEND;zilver;0,264878137
+1661;1326;Waals-Brabant;4,86;01.18.2019;11;onderscheiding;zilver;84,9;11;202,821;272,7;belangrijk;aangenaam warm;16/01/2019;zeer mee eens;geen;0,359837009
+1662;1668,25;Antwerpen;ONBEKEND;01.23.2019;10;grote onderscheiding;goud;88,2;8;245,33;258,2;belangrijk;aangenaam warm;19/09/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1663;1671,17;Luxemburg;4,82;07.15.2019;11;onderscheiding;geen;66,7;7;186,804;279,9;belangrijk;aangenaam warm;17/09/2019;mee eens;goud;0,237917998
+1664;1711,82;West-Vlaaderen;5,33;02.05.2019;10;onderscheiding;goud;79,2;11;ONBEKEND;332,4;belangrijk;aangenaam warm;24/11/2019;neutraal;ONBEKEND;ONBEKEND
+1665;1340,7;Luxemburg;4,38;06.03.2019;10;onderscheiding;geen;78,5;2;178,08;313,5;niet belangrijk;aangenaam warm;11/04/2019;zeer mee oneens;geen;0,49499472
+1666;1456,07;West-Vlaaderen;5,41;02.14.2019;10;voldoening;goud;84;1;225,901;298,9;beetje belangrijk;heet;19/02/2019;neutraal;geen;0,386110006
+1667;1680,88;Oost-Vlaanderen;5,66;12.05.2019;10;ONBEKEND;zilver;105;9;201,601;260,5;belangrijk;heet;5/12/2019;ONBEKEND;geen;0,386110006
+1668;1606,76;West-Vlaaderen;5,65;01.04.2019;10;onderscheiding;geen;87,8;ONBEKEND;230,298;354,4;belangrijk;heet;24/08/2019;mee eens;ONBEKEND;ONBEKEND
+1669;ONBEKEND;Vlaams-Brabant;4,81;06.26.2019;11;onderscheiding;zilver;94;8;194,649;259,4;niet belangrijk;warm;10/08/2019;neutraal;ONBEKEND;ONBEKEND
+1670;1536,72;West-Vlaaderen;5,4;10.05.2019;11;grootste onderscheiding;goud;85,2;10;223,853;324,4;belangrijk;aangenaam warm;21/04/2019;zeer mee eens;zilver;0,196665578
+1671;1678,9;Namen;5,38;11.30.2019;11;gebuisd;goud;95,7;3;231,843;283;beetje belangrijk;aangenaam warm;20/03/2019;zeer mee oneens;zilver;0,10229169
+1672;1327,43;Namen;4,95;10.12.2019;10;voldoening;goud;98;7;180,072;289,2;niet belangrijk;vrieskou;28/10/2019;mee eens;geen;0,427921541
+1673;ONBEKEND;Henegouwen;5,32;12.23.2019;9;grote onderscheiding;goud;101,1;7;179,721;ONBEKEND;niet belangrijk;vrieskou;27/07/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1674;1285,36;Antwerpen;3,74;03.01.2019;11;onderscheiding;zilver;94,7;2;207,833;338,6;beetje belangrijk;lage temperatuur;28/11/2019;zeer mee oneens;zilver;0,088281627
+1675;1333;Limburg;5,12;04.25.2019;10;grootste onderscheiding;geen;107,9;2;196,109;254,1;belangrijk;heet;9/08/2019;zeer mee eens;zilver;0,326875271
+1676;1700,12;Oost-Vlaanderen;4,2;06.10.2019;9;grootste onderscheiding;goud;81,4;5;206,112;280,4;belangrijk;aangenaam warm;15/03/2019;neutraal;goud;0,287436196
+1677;1327,44;West-Vlaaderen;5,04;08.27.2019;10;grote onderscheiding;zilver;95,6;1;203,875;316,8;belangrijk;aangenaam warm;27/10/2019;mee eens;zilver;0,335496419
+1678;1276,8;Luxemburg;5,8;09.10.2019;9;grootste onderscheiding;geen;96,6;1;193,102;ONBEKEND;beetje belangrijk;heet;29/08/2019;mee eens;ONBEKEND;ONBEKEND
+1679;1405,47;Henegouwen;5,26;03.14.2019;10;grootste onderscheiding;geen;84,8;3;176,051;281,3;niet belangrijk;lage temperatuur;10/06/2019;zeer mee eens;geen;0,558073863
+1680;1309,35;Limburg;4,65;10.20.2019;11;grote onderscheiding;goud;98,9;3;180,77;284,4;belangrijk;aangenaam warm;20/02/2019;zeer mee eens;goud;0,255984578
+1681;1562,59;Henegouwen;4,78;10.09.2019;10;grootste onderscheiding;goud;93,9;10;168,981;309,9;heel belangrijk;warm;8/01/2019;mee eens;goud;0,255658851
+1682;1440,16;Luxemburg;4,38;ONBEKEND;10;onderscheiding;zilver;94;11;199,608;249,8;heel belangrijk;vrieskou;17/09/2019;mee eens;goud;0,255658851
+1683;1635,46;West-Vlaaderen;3,82;02.21.2019;10;gebuisd;geen;100,8;ONBEKEND;211,885;286,6;heel belangrijk;heet;5/02/2019;zeer mee eens;ONBEKEND;ONBEKEND
+1684;ONBEKEND;Namen;ONBEKEND;09.02.2019;ONBEKEND;onderscheiding;zilver;89,3;4;223,443;311,6;niet belangrijk;aangenaam warm;31/01/2019;neutraal;ONBEKEND;ONBEKEND
+1685;1416,02;Henegouwen;5,75;02.25.2019;8;grootste onderscheiding;geen;95,8;3;186,194;301,9;belangrijk;warm;13/03/2019;zeer mee oneens;geen;0,756345137
